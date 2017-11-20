@@ -1,5 +1,5 @@
-# Practica1Git
-## by Brais Moure
+# Ejercicio 1 de la Práctica del curso de git, gitHub y Sourcetree
+### by Brais Moure
 
 * ¿Qué comando utilizaste en el paso 11? ¿Por qué?
 > He utilizado el comando `git reset --hard HEAD~1`
