@@ -10,7 +10,7 @@
 * ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?
 > Uso el comando `git reflog` para visualizar la lista de operaciones realizadas sobre el repo (su rastro de migas), y así obtener el identificador SHA del *commit* que quiero rehacer.
 > 
-> A continuación identifico el *commit* que quiero rehacer (***c4fd31f HEAD@{1}: commit: Modifico el archivo git-nuestro.md para darle estilo.***) y me quedo con su identificador SHA.
+> A continuación identifico el *commit* que quiero rehacer (**c4fd31f HEAD@{1}: commit: Modifico el archivo git-nuestro.md para darle estilo.**) y me quedo con su identificador SHA.
 > 
 > Realizo un `git reset --hard c4fd31f` para modificar el contenido de mi Workig Copy, retornando al estado antes de deshacer este último *commit*.
 
